@@ -10,6 +10,9 @@ const ProyectoContainer = styled.div`
     margin: auto;
     align-items: center;
     margin-bottom: 50px;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+
 `
 const ProyectoHeader = styled.div`
     display: flex;
@@ -28,6 +31,10 @@ const ProyectoH2 = styled.h2`
 
     }
 `
+const ProyectoHeadP = styled.p`
+    color: black;
+    font-size: 20px;
+`
 const ProyectoFondo = styled.div`
     background-image:  url(${dCocoa});
     background-position: center;
@@ -35,6 +42,7 @@ const ProyectoFondo = styled.div`
     background-size: cover;
     height: 70vh;
     width: 100%;
+
 `
 const ProyectoFondo2 = styled.div`
     background-image:  url(${pDocumentacion});
@@ -68,12 +76,12 @@ const ProyectoCard = styled.div`
     position: relative;
     top: 100px;
     width: 50%;
-    height: auto;
+    height: 50%;
     padding-top: 50px;
     padding-right: 30px;
     padding-left: 10px;
     padding-bottom: 10px;
-    background-color: aqua;
+    background-color: #0F0E17;
     @media only screen and (max-width: 767px){
         bottom: 0;
         top: 300px;
@@ -81,16 +89,20 @@ const ProyectoCard = styled.div`
 
     }
 `
+const ProyectoButtonCard = styled.button`
+    position: absolute;
+    bottom: 20px;
+`
 const ProyectoCard2 = styled.div`
     position: relative;
     top: 100px;
     width: 80%;
-    height: auto;
+    height: 50%;
     padding-top: 50px;
     padding-right: 30px;
     padding-left: 10px;
     padding-bottom: 10px;
-    background-color: aqua;
+    background-color: #0F0E17;
     @media only screen and (max-width: 767px){
         bottom: 0;
         top: 300px;
@@ -104,6 +116,7 @@ const ProyectoPDCocoa = styled.p`
 const ProyectoContainerFondo = styled.div`
     display: flex;
     flex-flow: row wrap;
+    width: 100%;
     justify-content: space-between;
     margin: 30px 0;
     @media only screen and (max-width: 767px){
@@ -121,13 +134,14 @@ const Proyecto = () => {
         <ProyectoContainer id="proyectos">
             <ProyectoHeader>
                 <ProyectoH2>Parece magia, todo funciona con codigo</ProyectoH2>
-                <p>Tiempo, dedicacion e inspiración. La experiencia habla por si sola</p>
+                <ProyectoHeadP>Tiempo, dedicacion e inspiración. La experiencia habla por si sola</ProyectoHeadP>
             </ProyectoHeader>
             <ProyectoFondo>
                 <ProyectoCard>
                     <h3>D-Cocoa</h3>
                     <ProyectoPDCocoa>D-Cocoa es un econmerce dedicada a la venta de productos 100%</ProyectoPDCocoa>
-                    <a href="https://jacksonguerrer0.github.io/Sprint3/">                    <button type="button" className="btn btn-warning" >Ver</button></a>
+                    <a href="https://jacksonguerrer0.github.io/Sprint3/">                    
+                    <ProyectoButtonCard type="button" className="btn btn-warning" >Ver</ProyectoButtonCard></a>
                 </ProyectoCard>
             </ProyectoFondo>
             <ProyectoContainerFondo>
@@ -136,7 +150,7 @@ const Proyecto = () => {
                         <h3>Página Documentación</h3>
                         <ProyectoPDCocoa>Es una página para la documentación tecnica, en este caso el uso de Let en js</ProyectoPDCocoa>
                         <a href="https://jacksonguerrer0.github.io/Pagina-Documentacion-T-Bootstrap/index.html">
-                        <button type="button" className="btn btn-warning">Ver</button>
+                        <ProyectoButtonCard type="button" className="btn btn-warning">Ver</ProyectoButtonCard>
                         </a>
                     </ProyectoCard2>
                 </ProyectoFondo2>
@@ -145,7 +159,7 @@ const Proyecto = () => {
                         <h3>Pagina Tributo</h3>
                         <ProyectoPDCocoa>Página tributo a los campesino colombianos por su gran labor</ProyectoPDCocoa>
                         <a href="https://jacksonguerrer0.github.io/Pagina-Tributo-Bootstrap/">
-                        <button type="button" className="btn btn-warning">Ver</button>
+                        <ProyectoButtonCard type="button" className="btn btn-warning">Ver</ProyectoButtonCard>
                         </a>
                     </ProyectoCard2>
                 </ProyectoFondo3>

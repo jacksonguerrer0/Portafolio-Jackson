@@ -9,12 +9,17 @@ const FooterContainer = Styled.footer`
     height: 100px;
     align-items: center;
     margin-top: 50px;
+    background-color: #0F0E17;
 `
 const FooterEsquinas= Styled.div`
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     width: 20%;
 `
 const FooterMedio= Styled.div`
     width: 60%;
+    color:white; 
 `
 const Footer = () => {
     return (

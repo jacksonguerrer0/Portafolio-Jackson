@@ -5,12 +5,20 @@ import ResponsiveWebDesign from '../images/resonsiveWebDesign.png';
 import Libreria from '../images/libreria.png';
 
 const CertificadoContainer = Styled.div`
-    width: 90%;
+    width: 100%;
+    height: 100vh;
     text-align: center;
     margin: auto;
+    padding: 50px;
+    background: linear-gradient(to bottom right, #FEB692, #EA5455);
+    @media only screen and (max-width: 767px){
+        height: 60%;
+
+    }
+
 `
 const CertificadoImage = Styled.div`
-    width: 60%;
+    width: 65%;
     margin: auto;
     @media only screen and (max-width: 767px){
         width: 100%;
@@ -18,7 +26,8 @@ const CertificadoImage = Styled.div`
     }
 `
 const CertificadoText = Styled.div`
-    background-color: #a2c2fc;
+    background-color: #0f0e17ed;
+    border-radius: 20px;
 `
 const Certificado = () => {
     return (

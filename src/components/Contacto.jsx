@@ -9,19 +9,24 @@ const ContactoContainer = Styled.div`
     border: 2px solid black;
     border-radius: 10px;
     padding: 40px 25px;
+    background-color: #0F0E17;
     @media only screen and (max-width: 767px){
         width: 90%;
 
     }
 `
 const Button = Styled.button`
-    margin: 20px 40%;
+    width: 100%;
+    background-color: #FF8906;
+   :hover{
+    background-color: #ff9e2f
+   } 
     
 `
 const Contacto = () => {
     return (
     <ContactoContainer id="contacto">
-            <h1>Contacto</h1>
+            <h1 style={{color:`white`}}>Contacto</h1>
             <p>Si estas interesado en trabajar conmigo, no dudes en contactarme</p>
             <form>
         <div className="mb-3">
@@ -33,7 +38,10 @@ const Contacto = () => {
         <div className="mb-3">
             <textarea name="" cols="30" rows="5" className="form-control" id="exampleInputComentario" placeholder="Escribe un mensaje"></textarea>
         </div>
+        <div className="mb-3">
         <Button type="submit" className="btn btn-primary">Enviar</Button>
+        </div>
+        
         </form>
     </ContactoContainer>
     )
