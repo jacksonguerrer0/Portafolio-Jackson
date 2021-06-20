@@ -4,9 +4,14 @@
 
 Portafolio para presentar a empresas y socios
 
-Puedes descargarlo:
--nom install
--npm run build
+Portafolio para presentar a empresas y socios
+
+Puedes descargarlo: https://jacksonguerrer0.github.io/Portafolio-Jackson/
+
+-npm install
+
+-npm run start
+
 Y ya podras visualizarlo
 
 
