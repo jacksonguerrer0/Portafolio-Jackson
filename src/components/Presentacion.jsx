@@ -29,14 +29,14 @@ const Foto = styled.div`
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 360px;
-    height: 50%;
+    width: 500px;
+    height: 500px;
     position: absolute;
     right: 0;
-    @media only screen and (max-width: 767px){
+    @media only screen and (max-width: 950px){
         display: flex;
-        width: 300px;
-        height: 40%;
+        width: 350px;
+        height: 350px;
         background-position: top;
         position: static;
         z-index: 2;

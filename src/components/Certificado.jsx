@@ -5,14 +5,17 @@ import ResponsiveWebDesign from '../images/resonsiveWebDesign.png';
 import Libreria from '../images/libreria.png';
 
 const CertificadoContainer = Styled.div`
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
     width: 100%;
-    height: 100vh;
+    height: 120vh;
     text-align: center;
     margin: auto;
     padding: 50px;
     background: linear-gradient(to bottom right, #FEB692, #EA5455);
-    @media only screen and (max-width: 767px){
-        height: 60%;
+    @media only screen and (max-width:1000px){
+        height: 80%;
 
     }
 
