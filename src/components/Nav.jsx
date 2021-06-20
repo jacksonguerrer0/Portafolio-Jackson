@@ -11,16 +11,16 @@ const Nav = () => {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                <a className="nav-link " aria-current="page"  href="#probando">Hola</a>
+                <a className="nav-link " aria-current="page"  href="#hola">Hola</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" aria-current="page"  href="#probando">Proyectos</a>
+                <a className="nav-link" aria-current="page"  href="#proyectos">Proyectos</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" aria-current="page"  href="#probando">Certificados</a>
+                <a className="nav-link" aria-current="page"  href="#certificados">Certificados</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link " aria-current="page"  href="#probando">Contacto</a>
+                <a className="nav-link " aria-current="page"  href="#contacto">Contacto</a>
                 </li>
             </ul>
             <button type="button" className="btn btn-outline-warning">Descargar Currículum</button>

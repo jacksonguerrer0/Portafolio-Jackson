@@ -5,7 +5,6 @@ import Main from '../components/Main'
 import Presentacion from '../components/Presentacion'
 import Proyecto from '../components/Proyecto'
 import Certificado from '../components/Certificado'
-import Portada from '../components/Portada'
 import Contacto from '../components/Contacto'
 import Footer from '../components/Footer'
 const App = ()=> (
@@ -17,7 +16,6 @@ const App = ()=> (
         <Presentacion/>
         <Proyecto/>
         <Certificado/>
-        <Portada/>
         <Contacto/>
     </Main>
     <Footer/>
