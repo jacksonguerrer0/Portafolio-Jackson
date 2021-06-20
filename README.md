@@ -4,11 +4,14 @@
 
 Portafolio para presentar a empresas y socios
 
-Puedes verlo aquí: https://jacksonguerrer0.github.io/Aplicacion-Adopcion/waiting-1.html
+Puedes descargarlo:
+-nom install
+-npm run build
+Y ya podras visualizarlo
 
 
 ## 👀  Vista previa
-![Míralo](images/pc.png)
+![Míralo](src/images/pc.png)
 
 ## 🌟 Autor
 
