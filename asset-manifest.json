@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Portafolio-Jackson/static/css/main.2a03e9d0.chunk.css",
+    "main.js": "/Portafolio-Jackson/static/js/main.1098f5e8.chunk.js",
+    "main.js.map": "/Portafolio-Jackson/static/js/main.1098f5e8.chunk.js.map",
+    "runtime-main.js": "/Portafolio-Jackson/static/js/runtime-main.b6a7c48a.js",
+    "runtime-main.js.map": "/Portafolio-Jackson/static/js/runtime-main.b6a7c48a.js.map",
+    "static/js/2.f2a1425c.chunk.js": "/Portafolio-Jackson/static/js/2.f2a1425c.chunk.js",
+    "static/js/2.f2a1425c.chunk.js.map": "/Portafolio-Jackson/static/js/2.f2a1425c.chunk.js.map",
+    "index.html": "/Portafolio-Jackson/index.html",
+    "static/css/main.2a03e9d0.chunk.css.map": "/Portafolio-Jackson/static/css/main.2a03e9d0.chunk.css.map",
+    "static/js/2.f2a1425c.chunk.js.LICENSE.txt": "/Portafolio-Jackson/static/js/2.f2a1425c.chunk.js.LICENSE.txt",
+    "static/media/dCocoa.f083272f.png": "/Portafolio-Jackson/static/media/dCocoa.f083272f.png",
+    "static/media/jackson.9cf14de4.png": "/Portafolio-Jackson/static/media/jackson.9cf14de4.png",
+    "static/media/javascript.84cdf175.png": "/Portafolio-Jackson/static/media/javascript.84cdf175.png",
+    "static/media/libreria.82757b79.png": "/Portafolio-Jackson/static/media/libreria.82757b79.png",
+    "static/media/pDocumentacion.615bb462.png": "/Portafolio-Jackson/static/media/pDocumentacion.615bb462.png",
+    "static/media/pTributo.d21370d6.png": "/Portafolio-Jackson/static/media/pTributo.d21370d6.png",
+    "static/media/resonsiveWebDesign.24614c48.png": "/Portafolio-Jackson/static/media/resonsiveWebDesign.24614c48.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6a7c48a.js",
+    "static/js/2.f2a1425c.chunk.js",
+    "static/css/main.2a03e9d0.chunk.css",
+    "static/js/main.1098f5e8.chunk.js"
+  ]
+}
