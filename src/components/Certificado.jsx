@@ -5,9 +5,7 @@ import ResponsiveWebDesign from '../images/resonsiveWebDesign.png';
 import Libreria from '../images/libreria.png';
 
 const CertificadoContainer = Styled.div`
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
+    display: block ;
     width: 100%;
     height: 120vh;
     text-align: center;

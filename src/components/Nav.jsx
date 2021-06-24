@@ -4,8 +4,9 @@ import Styled from 'styled-components'
 const NavDiv = Styled.div`
     background: #0F0E17;
     top: 0;
-    position: absolute;
+    position: fixed;
     padding: 15px;
+    z-index: 3 !important;
 }
 `
 const NavText = {color: `white`}
