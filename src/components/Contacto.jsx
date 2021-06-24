@@ -27,31 +27,28 @@ const Button = Styled.button`
 
 
 const Contacto = () => {
-    // const $form = document.querySelector("#formulario");
-    // $form.addEventListener('submit', handleSubmit)
-
-    // async function handleSubmit (e){
-    //     e.preventDefault();
-    //     const form = new FormData(this);
-    //     const response = await fetch(this.action, {
-    //         method: this.method,
-    //         body: form,
-    //         headers: {
-    //             'Accept' : 'application/json'
-    //         }
-    //     })
-    //     if(response.ok){
-    //         this.reset()
-    //         console.log("tochidos")
-    //     }
-    // }
+    async function handleSubmit (e){
+        e.preventDefault();
+        const form = new FormData(e.target);
+        const response = await fetch(e.target.action, {
+            method: e.target.method,
+            body: form,
+            headers: {
+                'Accept' : 'application/json'
+            }
+        })
+        if(response.ok){
+            e.target.reset()
+            alert("Gracias por enviar tu correo")
+        }
+    }
 
 
     return (
     <ContactoContainer  id="contacto" >
         <h1 style={{color:`white`}}>Contacto</h1>
         <p>Si estas interesado en trabajar conmigo, no dudes en contactarme</p>
-        <form action="https://formspree.io/f/mqkwlzdg" method="POST" id="formulario">
+        <form action="https://formspree.io/f/mqkwlzdg" method="POST" id="formulario" onSubmit={handleSubmit}>
                 <label className="col-12 mb-2" htmlFor="email">
                     <input type="email" name="email" className="form-control" id="email" aria-describedby="emailHelp" placeholder="Correo Electronico" required/>
                 </label>
